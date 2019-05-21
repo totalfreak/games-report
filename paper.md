@@ -88,7 +88,7 @@ Look in [\color{blue}{Assignment 3: Day 2}](https://tinyurl.com/yym98zta).
 Link to playable binaries for Linux, Mac, and Windows can be found [\color{blue}{here}](https://mega.nz/#F!EBNHUChT!XCNV5iEsW1Eych1_TaSFhA).
 
 ## 5.b
-The entire project is hosted on github, the zipped (un-imported) project is around 36.9 MB.
+The entire project is hosted on [\color{blue}{github}](https://github.com/totalfreak/Nightmare-hotel), the zipped (un-imported) project is around 36.9 MB.
 
 ## 5.c
 For creating this game, we decided on using the Godot engine, it is an open source engine that allows for quick development of both 2D and 3D games. The graphics pipeline of Godot is OpenGl, and the physics engine is a modified version of box2D called Godot physics. Programming is all done inside the Godot editor. We used Aseprite and Piskel for the pixel art.
