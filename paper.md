@@ -95,28 +95,51 @@ The door allows for unlocking if the key is thrown at it, and allows for ending 
 
 # 3. Documentation of the Physical Prototype Game Design process
 ## 3.a  Concept
-I can't find any other concept images than this final box art cover, and a crudely drawn digital storyboard.
+I can't find any other concept images than this final box art cover, and a crudely drawn digital storyboard. The concept is at this point about a goblin who gets disturbed in his sleep from humans moving into his hotel, and then tries to scare them away.
 
 ![Final concept image](https://lh5.googleusercontent.com/gu1vY5W8He0VpDCujby-ULH7ZU26X2nB_mP264PYr6ddmximUuV2Zx_oUupYQr8X0lELloS1AlwMjKZQlyvfikE4ySLlYHuzmpa0hNjE=s1600){width=420px}
+
+
 
 ![Crudely drawn storyboard](storyboard.png){width=420px}
 
 ## 3.b Physical prototype
-[203]
+We made the physical prototype using paper, because it is fast to iterate[p.203-204, @fullerton]. We used some paper with darkness drawn on to simulate that the rooms were unlit, and nothing was visible in there.
+
+![First room](paper-prototype1.png){width=420px}
+
+
+![Second room with stairs and key](paper-prototype2.png){width=420px}
+
+
+![Fourth room showing ball throwing and light interaction.](paper-prototype3.png){width=420px}
 
 ## 3.c Playtest
-[277]
+We didn't tell the tester much else than their controller function [p.281, @fullerton]. This was to see how enemy the player interaction worked out, and how the mechanics of the light hitting the player worked.
+
+![Showing how the tester interacted with the prototype, and being on fire.](paper-prototype-test1.png){width=420px}
+
+![Showing the tester hiding from the enemy in the ventilation.](paper-prototype-test2.png){width=420px}
+
 
 ## 3.d The Playcentric method
-[16]
+Following the playcentric approach, allowed for iterating upon the concept, using paper prototyping to test. Drawing up the concepts beforehand, and then testing it on the players allowed us to experience what an actual player would do in a gameplay situation[p.12,@fullerton].
 
 \newpage
 # 4. Documentation of the Digital Game Development process
 
 ## 4.a Flowchart
-[451]
+Making this flowchart was beneficial to the degree that it allowed us to map out every function and option that a player had, while taking it into account for the rest of game's systems[451].
+
+![Flowchart showing the flow of the entire play.](flowchart.png){width=420px}
 
 ## 4.b Assets
+
+![The player sprite, drawn in aseprite](asset1.png){width=220px}
+
+![The ventilation sprite, drawn in aseprite](asset2.png){width=220px}
+
+![The enemy sprite, drawn aseprite](asset3.png){width=220px}
 
 ## 4.c The process
 
