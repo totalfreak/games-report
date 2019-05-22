@@ -5,6 +5,9 @@ author:
 - Daniel Kartin
 ---
 \setcounter{page}{1}
+\tableofcontents
+\newpage
+
 
 # 1. Info about your Game, Game Development Team, your role and lessons learned
 The *short* trailer for the game can be seen [\color{blue}{here}](https://www.youtube.com/watch?v=CF0C61Sxbhg).
@@ -36,27 +39,67 @@ I primarily worked with Game design, level design, programming, 2D art, and anim
 # 2. Description of your game
 
 ## 2.a Gameplay genre
-[261,474]
+The game is an action[p.475, @fullerton] adventure[p.480, @fullerton] platformer[p.261, @fullerton], with a 2D side view[p.261, @fullerton]. It is mostly an action game due to the twitch reaction gameplay of the movement and "combat"[p.261, @fullerton].
 
 ## 2.b Player type(s)
-[104]
+The game caters to the Explorer due to the way you can explore the different rooms of the level[p.104]. But it also caters to the Collector, as you can pick up items[p.104, @fullerton].
 
 ## 2.c Player engagement
-[38-46]
+It engages the player in way of Challenge, because of the rising sense of tension, from the introduction of the light, then the enemy and then more than one enemy[p.39, @fullerton]. The premise of being a small goblin should also create engagement[p.45, @fullerton].
 
 ## 2.d Formal elements
-Look in [\color{blue}{Assignment 3: Day 2}](https://tinyurl.com/yym98zta).
+The number of players is 1[p.58, @fullerton], it is a single player versus the game[p.59, @fullerton]. The game only has one role, being the goblin[p.58-59, @fullerton]. The objective is escaping[p.69-70, @fullerton]. Procedure is pressing Play from the main menu, with a mouse[p.74, @fullerton]. Core loop is moving around, avoiding light and enemies, and throwing boxes[p.74, @fullerton]. Resolving actions are dying from the light or an enemy, and winning by escaping[p.74, @fullerton]. Rules restricting action, player can go through walls[p.79, @fullerton]. Rules determining effects, if player in light too long, or touched by enemy, dead[p.79-80, @fullerton]. Shadow is a resource, like special terrain, player uses shadow to avoid light[p.83, @fullerton].
+
+###### Conflict
+* Obstacles: The light areas, and the navigation[p.86, @fullerton].
+* Opponent: Enemies[p.86, @fullerton].
+* Dilemmas: Choices of player, like wait in shadow or jump into light for movement[p.86-87, @fullerton].
 
 ## 2.e Dramatic elements
+The challenge should emotionally engage the player, as the it should remain balanced between frustration and boredom[p.98-99, @fullerton]. The game allows for exploration and collecting items, something that should lend it towards the Explorer and Collector player types[p.104, @fullerton]. The goblin character should be able to be identified with by a player, due to him being trapped in the building, and many people have experienced that, which should allow for them to internalise the "story"[p.108-109, @fullerton].
 [97]
 
 ## 2.f System dynamics
-[129]
+
+### Objects
+Includes the player, the boxes, the key, the door, the enemy, the rooms[p.130, @fullerton].
+
+### Properties
+* Player: location, holding an object or not, alive[p.130, @fullerton].
+* The Boxes: Being held, location[p.130, @fullerton].
+* The Key: Being held, location[p.130, @fullerton].
+* The door: location, locked/unlocked[p.130, @fullerton].
+* The stairs: location[p.130, @fullerton].
+* The rooms: location, lit, object contained within[p.130, @fullerton].
+* The enemy: location, attacking or not, dazed or not[p.130, @fullerton].
+
+### Behaviours
+* Player: moving, jumping, going in and out of ventilation shafts, picking up object, throwing objects[p.131, @fullerton].
+* The Boxes: physically move around, be picked up, be thrown[p.131, @fullerton].
+* The Key: physically move around, be picked up, be thrown[p.131, @fullerton].
+* The Door: be unlocked, and activated[p.130, @fullerton].
+* The stairs: be activated[p.130, @fullerton].
+* The rooms: be lit or unlit[p.130, @fullerton].
+* The enemy: Start/stop attacking, get dazed, idle.
+
+### Relationships
+Player can pick up objects, and throw them, thus changing their location in the world[p.131-132, @fullerton].
+
+The enemy activates attacking when a player is near, and stops if player goes too far away[p.131-132, @fullerton].
+
+The stair allows for the player to go up and down between floors[p.131-132, @fullerton].
+
+The door allows for unlocking if the key is thrown at it, and allows for ending the game if the player activates it[p.131-132, @fullerton].
 
 \newpage
 
 # 3. Documentation of the Physical Prototype Game Design process
 ## 3.a  Concept
+I can't find any other concept images than this final box art cover, and a crudely drawn digital storyboard.
+
+![Final concept image](https://lh5.googleusercontent.com/gu1vY5W8He0VpDCujby-ULH7ZU26X2nB_mP264PYr6ddmximUuV2Zx_oUupYQr8X0lELloS1AlwMjKZQlyvfikE4ySLlYHuzmpa0hNjE=s1600){width=420px}
+
+![Crudely drawn storyboard](storyboard.png){width=420px}
 
 ## 3.b Physical prototype
 [203]
@@ -114,3 +157,7 @@ For creating this game, we decided on using the Godot engine, it is an open sour
 ## 7.c Publish your game
 QA/Polish [428]
 Agile Project Planning [433]
+
+\newpage
+
+# Bibliography
