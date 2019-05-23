@@ -60,27 +60,8 @@ The challenge should emotionally engage the player, as the it should remain bala
 [97]
 
 ## 2.f System dynamics
+Includes the player, the boxes, the key, the door, the enemy, the rooms[p.130, @fullerton]. The player has a location, and can hold and throw objects, these object can activate doors, or daze enemies.
 
-### Objects
-Includes the player, the boxes, the key, the door, the enemy, the rooms[p.130, @fullerton].
-
-### Properties
-* Player: location, holding an object or not, alive[p.130, @fullerton].
-* The Boxes: Being held, location[p.130, @fullerton].
-* The Key: Being held, location[p.130, @fullerton].
-* The door: location, locked/unlocked[p.130, @fullerton].
-* The stairs: location[p.130, @fullerton].
-* The rooms: location, lit, object contained within[p.130, @fullerton].
-* The enemy: location, attacking or not, dazed or not[p.130, @fullerton].
-
-### Behaviours
-* Player: moving, jumping, going in and out of ventilation shafts, picking up object, throwing objects[p.131, @fullerton].
-* The Boxes: physically move around, be picked up, be thrown[p.131, @fullerton].
-* The Key: physically move around, be picked up, be thrown[p.131, @fullerton].
-* The Door: be unlocked, and activated[p.130, @fullerton].
-* The stairs: be activated[p.130, @fullerton].
-* The rooms: be lit or unlit[p.130, @fullerton].
-* The enemy: Start/stop attacking, get dazed, idle.
 
 ### Relationships
 Player can pick up objects, and throw them, thus changing their location in the world[p.131-132, @fullerton].
@@ -97,7 +78,7 @@ The door allows for unlocking if the key is thrown at it, and allows for ending 
 ## 3.a  Concept
 I can't find any other concept images than this final box art cover, and a crudely drawn digital storyboard. The concept is at this point about a goblin who gets disturbed in his sleep from humans moving into his hotel, and then tries to scare them away.
 
-![Final concept image](https://lh5.googleusercontent.com/gu1vY5W8He0VpDCujby-ULH7ZU26X2nB_mP264PYr6ddmximUuV2Zx_oUupYQr8X0lELloS1AlwMjKZQlyvfikE4ySLlYHuzmpa0hNjE=s1600){width=420px}
+![Final concept image](boxart.jpg){width=420px}
 
 
 
@@ -134,18 +115,37 @@ Making this flowchart was beneficial to the degree that it allowed us to map out
 ![Flowchart showing the flow of the entire play.](flowchart.png){width=420px}
 
 ## 4.b Assets
+The player sprite was drawn and animated in aseprite.
 
 ![The player sprite, drawn in aseprite](asset1.png){width=220px}
 
+The ventilation sprite was drawn in aseprite.
+
 ![The ventilation sprite, drawn in aseprite](asset2.png){width=220px}
+
+The enemy sprite was drawn and animated in aseprite.
 
 ![The enemy sprite, drawn aseprite](asset3.png){width=220px}
 
+
 ## 4.c The process
+Much of the work after the player movement, light systems, and ventilation, went into the creation of the individual rooms, and how the final level should fit together. After a room had been decided on, a member got working on the content of it, including the art assets.
+
+![The first iteration, testing the player movement, light systems, and ventilation](process1.png){width=420px}
+
+![The second iteration, with some art assets implemented](process2.png){width=420px}
+
+![The final iteration, with all the assets, and rooms setup](process3.png){width=420px}
 
 ## 4.d Playtest
+We tested like this, not telling anything to the players, to see how a player naturally interacted with the prototype systems.
+
+![A player, playtesting the prototype](playtest1.jpg){width=420px}
+
+![A player, playtesting the prototype](playtest2.jpg){width=300px}
 
 ## 4.e The Playcentric method
+Like the physical prototype, the playcentric approach allowed for creating the rooms, testing their mechanics, and determining their engagement[p.12,@fullerton].
 
 \newpage
 # 5. Documentation of your Game Implementation
@@ -161,10 +161,8 @@ For creating this game, we decided on using the Godot engine, it is an open sour
 \newpage
 
 #  6. Your own evaluation of your team’s game
-\begin{figure}[H]
-\centering
-\includegraphics[width=.9\linewidth]{Games-evaluation.png}
-\end{figure}
+
+![Evaluation table](Games-evaluation.png){width=420px}
 
 ## 6.h Player experience evaluation
 
