@@ -21,7 +21,7 @@ Nightmare Hotel
 FrandseGames
 
 ## 1.c Team members
-Jens Jakúp Gaardbo, Fredrik Dam Hansen, Simon Frandsen, Daniel Kartin, Søren Skouv
+Jens Jákup Gaardbo, Fredrik Dam Hansen, Simon Frandsen, Daniel Kartin, Søren Skouv
 
 ## 1.e Common vision
 Stealth Goblin Action.
@@ -125,7 +125,7 @@ The ventilation sprite was drawn in aseprite.
 
 The enemy sprite was drawn and animated in aseprite.
 
-![The enemy sprite, drawn aseprite](asset3.png){width=220px}
+![The enemy sprite, drawn in aseprite](asset3.png){width=220px}
 
 
 ## 4.c The process
@@ -154,30 +154,37 @@ Like the physical prototype, the playcentric approach allowed for creating the r
 Link to playable binaries for Linux, Mac, and Windows can be found [\color{blue}{here}](https://mega.nz/#F!EBNHUChT!XCNV5iEsW1Eych1_TaSFhA).
 
 ## 5.b
-The entire project is hosted on [\color{blue}{github}](https://github.com/totalfreak/Nightmare-hotel), the zipped (un-imported) project is around 36.9 MB.
+The entire project is hosted on [\color{blue}{github}](https://github.com/totalfreak/Nightmare-hotel), the zipped (un-imported) project is around 36.9 MB. Simply press the green *Clone or download*, and then *Download ZIP* to download the project. Open the project using Godot 3.1.
 
 ## 5.c
-For creating this game, we decided on using the Godot engine, it is an open source engine that allows for quick development of both 2D and 3D games. The graphics pipeline of Godot is OpenGl, and the physics engine is a modified version of box2D called Godot physics. Programming is all done inside the Godot editor. We used Aseprite and Piskel for the pixel art.
+For creating this game, we decided on using the Godot engine, it is an open source engine that allows for quick development of both 2D and 3D games. The graphics pipeline of Godot is OpenGl, and the physics engine is a modified version of box2D called Godot physics. Programming is all done inside the Godot editor, with Godot's own scripting language that is similar to Python, GDScript. We used Aseprite and Piskel for the pixel art.
 \newpage
 
 #  6. Your own evaluation of your team’s game
 
-![Evaluation table](Games-evaluation.png){width=420px}
+![Evaluation table](Games-evaluation.png){width=620px}
 
 ## 6.h Player experience evaluation
-
+To evaluate this game, I would employ the methods from [p.407-408,@evaluation], where engagement is split into 6 types; Intellectual, Physical, Sensory, Social, Narrative, and Emotional. The method used is akin to the Microsoft Desirability Reaction Cards, with 49 cards. A player is stopped after 1 minute and 30 seconds, and asked if their would like to continue playing, if agreeing, the player gets to choose 5 cards describing why they were motivated to keep playing[p.407-408,@evaluation].
 
 \newpage
 # 7. Pitching and Publishing your game
 
 ## 7.a One word
+Sneaking.
 
 ## 7.b Elevator pitch
-[497]
+You are a cute little goblin, awoken in your slumber by humans, you decide to get out, while making life miserable for the invaders, by throwing objects and them and being a nuisance.
 
 ## 7.c Publish your game
-QA/Polish [428]
-Agile Project Planning [433]
+The initial effort will of course be in creating more engaging levels and mechanics. But after a while in development, we should move on to QA/Polish, where the alpha build will be polished into a sell-able product[p.428,@fullerton]. During the whole development the team should make use of Agile Development, with scrum meetings and sprints[p.431-432,@fullerton].
+
+\newpage
+
+
+# 8. Assignment: Documentation of the Game Teaser Video
+
+For creating the trailer, we wanted to keep it very short. Mostly due to the current length of the game. We introduce the main premise, of being trapped in the house by the humans, the main mechanic of avoiding the light, and the objective of the game. If the game had more levels, the trailer would probably have introduced more mechanics, and interesting puzzles to solve, teasing a bit more.
 
 \newpage
 
